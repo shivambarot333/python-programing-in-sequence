@@ -1,0 +1,9 @@
+def food_price(item):
+    return item[1]
+food_items = [('mango',10),("Pasta", 70),("Sandwich", 60),("Fries", 50)]
+
+sorted_food = sorted(food_items, key=food_price, reverse=True)
+
+for name, price in sorted_food:
+    print("name: " , name)
+    print("price: " , price)
