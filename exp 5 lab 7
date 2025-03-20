@@ -1,0 +1,23 @@
+prices = {
+    "Milk": 50,
+    "Eggs": 120,
+    "Rice": 80,
+    "Bread": 40,
+    "Apple": 30
+}
+
+quantities = {
+    "Milk": 2,
+    "Eggs": 1,
+    "Rice": 3,
+    "Bread": 1,
+    "Apple": 5
+}
+
+total_bill = 0
+
+for item in prices:
+    if item in quantities:  
+        total_bill += prices[item] * quantities[item]  
+
+print( total_bill)
