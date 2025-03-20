@@ -1,0 +1,2 @@
+strings = ["apple", "banana", "cherry"]
+print([s.upper() for s in strings])
