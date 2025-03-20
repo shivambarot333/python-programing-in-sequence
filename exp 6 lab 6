@@ -1,0 +1,5 @@
+x = (10,30,50,60)
+tuple_list = list(x)
+tuple_list[3] = 22
+x = tuple(tuple_list)
+print(x)
