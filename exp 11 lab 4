@@ -1,0 +1,4 @@
+from math import factorial, radians  
+
+x = radians(float(input()))  
+print(sum(((-1)**n * x**(2*n+1)) / factorial(2*n+1) for n in range(10)))  
