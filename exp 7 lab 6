@@ -1,0 +1,9 @@
+x = (20,40,60,70,80)
+
+teple_list = list(x)
+
+teple_list.remove(60)
+
+x = tuple(teple_list)
+
+print(x)  
