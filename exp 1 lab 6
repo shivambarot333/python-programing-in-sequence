@@ -1,0 +1,18 @@
+l= [('umnag','divyaksh','pratham') ,'hitashi','shaiva', 'harsha',('karan')]
+bl=[]
+gl=[]
+print(l)   
+bc = gc = 0
+
+for x in l:
+    if isinstance(x,tuple):
+        bc += len(x)
+        bl.extend(x)
+    else:
+        gc += 1
+        gl.append(x)
+print("no,. of boys = ",bc)
+print("no,. of girls = ",gc)
+print("no,. of boys = ",bl)
+print("no,. of girls = ",gl)
+print(type(l))
