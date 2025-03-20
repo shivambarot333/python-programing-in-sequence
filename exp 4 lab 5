@@ -1,0 +1,6 @@
+import random
+
+nums = [random.randint(-50, 50) for _ in range(30)]
+print( nums)
+print("Positive:", [n for n in nums if n > 0])
+print("Negative:", [n for n in nums if n < 0])
