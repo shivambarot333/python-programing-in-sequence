@@ -1,0 +1,4 @@
+from math import comb, perm
+
+n, r = map(int, input("Enter n and r: ").split())
+print("nCr:", comb(n, r), "nPr:", perm(n, r))
