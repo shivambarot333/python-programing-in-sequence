@@ -1,0 +1,5 @@
+tuples_list = [(), ('apple', 50), ('banana', 30), (), ('grapes', 70), ()]
+while () in tuples_list:  
+    tuples_list.remove(())
+
+print(tuples_list)
