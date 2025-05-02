@@ -1,4 +1,4 @@
-mport random
+import random
 x = {random.randint(15,45) for i in range (10)}
 s1 = set ()
 c  =0
